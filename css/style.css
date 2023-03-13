@@ -12,6 +12,17 @@ a {
     color: inherit;
 }
 
+button {
+    border: none;
+    padding: 0;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
 .d-flex {
     display: flex;
 }
@@ -26,9 +37,26 @@ a {
     margin: auto;
 }
 
+.btn {
+    font-weight: bold;
+    font-family: 'PT sans', 'sans-serif';
+    font-size: 18px;
+    line-height: 1.333;
+    padding: 16px 30px;
+}
+
+.btn-default {
+    background-color: #fff;
+    box-shadow: 0 4px 20px #0f064c;
+    color: #0f064c;
+}
+
 .header {
-    background-color: black;
     padding: 40px 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .main-header-nav {
@@ -45,4 +73,35 @@ a {
 .info-header-nav {
     color: rgba(255, 255, 255, 0.8);
     margin-left: auto;
+}
+
+.inner {
+    height: 100vh;
+    background: linear-gradient(89.79deg, #23196f 0.13%, #180d5b 99.88% );
+    padding-top: 106px;
+}
+
+.inner-call-to-action {
+    max-width: 545px;
+}
+
+.call-to-action-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.29;
+}
+
+.call-to-action-desq {
+    font-size: 18px;
+    line-height: 1.33;
+    color:rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+    max-width: 383px;
+    margin-bottom: 55px;
+}
+
+.call-to-action-desq >span {
+    color: #36a7b9;
+    font-weight: bold;
 }
